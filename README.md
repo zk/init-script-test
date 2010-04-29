@@ -5,7 +5,7 @@ An example project that provides an example of how to use the leiningen-init-scr
 ## How-To
 1. Clone the init-script-test repo
 
-<code>git clone git://github.com/zkim/init-script-test.git</code>
+	<code>git clone git://github.com/zkim/init-script-test.git</code>
 
 2. cd into the cloned repo directory
 	cd init-script-test

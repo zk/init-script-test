@@ -3,7 +3,7 @@
 An example project that provides an example of how to use the leiningen-init-script plugin
 
 ## How-To
-1. Clone the init-script-test repo
+Clone the init-script-test repo
 
     git clone git://github.com/zkim/init-script-test.git
 

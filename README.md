@@ -7,9 +7,9 @@ Clone the init-script-test repo
 
     git clone git://github.com/zkim/init-script-test.git
 
-2. cd into the cloned repo directory
-	
-	<code>cd init-script-test</code>
+cd into the cloned repo directory
+
+	cd init-script-test</code>
 	
 3. Download dependencies
 	

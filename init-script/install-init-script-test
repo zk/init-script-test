@@ -1,0 +1,6 @@
+#!/bin/bash
+mkdir -p /usr/local/init-script-test
+cp /Users/zkim/napplelabs/init-script-test/init-script-test-standalone.jar /usr/local/init-script-test/init-script-test-standalone.jar
+mkdir -p /etc/init.d
+cp /Users/zkim/napplelabs/init-script-test/init-script/init-script-testd /etc/init.d
+chmod u+x /etc/init.d/init-script-testd

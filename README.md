@@ -11,13 +11,13 @@ cd into the cloned repo directory
 
 	cd init-script-test</code>
 	
-3. Download dependencies
+Download dependencies
 	
-	<code>lein deps</code>
+	lein deps
 	
-4. Run the init-script task
+Run the init-script task
 	
-	<code>lein init-script
+	lein init-script
 	
 	Your output should look something like:
 	
@@ -27,7 +27,7 @@ cd into the cloned repo directory
 	Including clojure-contrib-1.1.0.jar
 	Including leiningen-init-script-0.1.0.jar
 	*** Done generating init scripts, see the /Users/zkim/tmp/init-script-test/init-script/ directory
-	napple:init-script-test zkim$</code>
+	napple:init-script-test zkim$
 	
 5. cd into the init-script directory
 	<code>cd ./init-script</code>

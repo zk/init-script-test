@@ -65,3 +65,6 @@ Stop the daemon service and verify the process has stopped
 	44679 ttys003    0:00.11 -bash
 	45248 ttys003    0:00.00 ps -e
 	
+## License
+
+[Eclipse Public License v1.0](http://www.eclipse.org/legal/epl-v10.html)

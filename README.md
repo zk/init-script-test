@@ -29,38 +29,39 @@ Run the init-script task
 	*** Done generating init scripts, see the /Users/zkim/tmp/init-script-test/init-script/ directory
 	napple:init-script-test zkim$
 	
-5. cd into the init-script directory
-	<code>cd ./init-script</code>
+cd into the init-script directory
+	cd ./init-script
 	
-6. Make install-init-script-test, clean-init-script-test runnable
-	<code>chmod u+x ./install-init-script-test
-	chmod u+x ./clean-init-script-test</code>
+Make install-init-script-test, clean-init-script-test runnable
+	chmod u+x ./install-init-script-test
+	chmod u+x ./clean-init-script-test
 	
-7. Install init script and jar
-	<code>sudo ./install-init-script-test</code>
+Install init script and jar
+	sudo ./install-init-script-test
 	
 leiningen-init-script installs the jar to /usr/local/<project-name> and the init script to /etc/init.d. These defaults can be changed, see the Configuration section of the leiningen-init-script README
 
-8. Start the daemon service
-	<code>sudo /etc/init.d/init-script-testd start</code>
+
+Start the daemon service
+	sudo /etc/init.d/init-script-testd start
 	
-9. Verify the jar is running
-	<code>ps -e
+Verify the jar is running
+	ps -e
 	
 	Output:
 	
 	44678 ttys003    0:00.01 login -pf zkim
 	44679 ttys003    0:00.11 -bash
 	45216 ttys003    0:01.28 /usr/bin/java -jar /usr/local/init-script-test/init-script-test-standalone.jar
-	45225 ttys003    0:00.00 ps -e</code>
+	45225 ttys003    0:00.00 ps -e
 	
-10. Stop the daemon service and verify the process has stopped
-	<code>sudo /etc/init.d/init-script-testd stop
+Stop the daemon service and verify the process has stopped
+	sudo /etc/init.d/init-script-testd stop
 	
 	ps -e
 	
 	44198 ttys002    0:00.09 -bash
 	44678 ttys003    0:00.01 login -pf zkim
 	44679 ttys003    0:00.11 -bash
-	45248 ttys003    0:00.00 ps -e</code>
+	45248 ttys003    0:00.00 ps -e
 	

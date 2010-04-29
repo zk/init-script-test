@@ -8,10 +8,10 @@ An example project that provides an example of how to use the leiningen-init-scr
 	<code>git clone git://github.com/zkim/init-script-test.git</code>
 
 2. cd into the cloned repo directory
-	cd init-script-test
+	<code>cd init-script-test</code>
 	
 3. Download dependencies
-	lein deps
+	<code>lein deps</code>
 	
 4. Run the init-script task
 	lein init-script

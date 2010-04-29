@@ -39,7 +39,7 @@ Make install-init-script-test, clean-init-script-test runnable
 Install init script and jar
 	sudo ./install-init-script-test
 	
-leiningen-init-script installs the jar to /usr/local/<project-name> and the init script to /etc/init.d. These defaults can be changed, see the Configuration section of the leiningen-init-script README
+leiningen-init-script installs the jar to /usr/local/<project-name> and the init script to /etc/init.d. These defaults can be changed, see the Configuration section of the [leiningen-init-script](http://github.com/zkim/leiningen-init-script) README
 
 
 Start the daemon service

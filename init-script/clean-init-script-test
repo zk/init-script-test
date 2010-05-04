@@ -1,3 +1,0 @@
-#!/bin/bash
-rm -f /usr/local/init-script-test/init-script-test-standalone.jar
-rm -f /etc/init.d/init-script-testd

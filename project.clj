@@ -9,6 +9,7 @@
 	     :java-opts ["-server"
 			 "-Xms256M"
 			 "-Xmx512M"
-			 "-XX:MaxPermSize=128M"]}
+			 "-XX:MaxPermSize=128M"]
+	     :redirect-output-to "/var/log/init-script-test.log"}
   :main main)
 

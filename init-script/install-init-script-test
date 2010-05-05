@@ -1,0 +1,17 @@
+#!/bin/bash
+
+NAME=init-script-test
+JAR_INSTALL_DIR=/usr/local/init-script-test
+ARTIFACT_UBERJAR_PATH=/Users/zkim/napplelabs/init-script-test/init-script/init-script-test-standalone.jar
+INIT_SCRIPT_INSTALL_DIR=/etc/init.d
+ARTIFACT_INIT_SCRIPT_PATH=/Users/zkim/napplelabs/init-script-test/init-script/init-script-testd
+INSTALLED_INIT_SCRIPT_PATH=/etc/init.d/init-script-testd
+
+#standalone jar
+mkdir -p $JAR_INSTALL_DIR
+cp $ARTIFACT_UBERJAR_PATH $JAR_INSTALL_DIR/"$NAME"-standalone.jar
+
+#init script
+mkdir -p $INIT_SCRIPT_INSTALL_DIR
+cp $ARTIFACT_INIT_SCRIPT_PATH $INIT_SCRIPT_INSTALL_DIR
+chmod u+x $INSTALLED_INIT_SCRIPT_PATH

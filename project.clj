@@ -2,7 +2,7 @@
   :description "Test project for leiningen-init-script"
   :dependencies [[org.clojure/clojure "1.1.0"]
                  [org.clojure/clojure-contrib "1.1.0"]]
-  :dev-dependencies [[leiningen-init-script "0.1.0"]]
+  :dev-dependencies [[leiningen-init-script "1.2.0-SNAPSHOT"]]
   :lis-opts {:properties {:clj-config.env "dev"
 			  :java.library.path "/some/dir"
 			  :init.script.test.prop "test with spaces"}
